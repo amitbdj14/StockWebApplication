@@ -1,0 +1,4 @@
+com\api\stock\service\StockApiService.class
+com\api\stock\StockMainApp.class
+com\api\stock\controller\Stock.class
+com\api\stock\controller\StockApiController.class
