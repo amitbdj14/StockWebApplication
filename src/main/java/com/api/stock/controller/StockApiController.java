@@ -34,7 +34,7 @@ public class StockApiController {
 	
  	@RequestMapping(method = RequestMethod.GET, value = "/api/stocks/{id}")
  	@ResponseBody
-	public Stock getStock(@PathVariable int id, Model model) {
+	public Stock getStock(@PathVariable int id) {
 		return stockService.getStock(id);
 		
 	}
