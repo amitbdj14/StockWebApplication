@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.api.stock</groupId>
-	<artifactId>StockWebApplication</artifactId>
+	<artifactId>StockRestApplication</artifactId>
 	<version>1.0</version>
 	<name>Stock Application</name>
-	<description>Stock Web Application in Spring Boot</description>
+	<description>Stock Rest Application in Spring Boot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
