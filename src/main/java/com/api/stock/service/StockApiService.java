@@ -29,7 +29,8 @@ String str1;
 	static{
 	}
 	
-	
+	static{
+	}
 	synchronized public void getTest{
 	}
 	
