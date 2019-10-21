@@ -29,8 +29,6 @@ String str1;
 	static{
 	}
 	
-	private StockApiService(){
-	}
 	
 	synchronized public void getTest{
 	}
