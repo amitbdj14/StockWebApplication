@@ -1,9 +1,7 @@
 package com.api.stock.controller;
 
 import java.sql.Timestamp;
-import java.util.List;
-import java.util.Map;
-import java.util.Comparator;
+
 
 public class Stock {
 
@@ -11,11 +9,11 @@ public class Stock {
 	private String name;
 	private double currentPrice;
 	private Timestamp lastUpdate;
-	String str=null;
-	String str3=null;
-	String str6=null;
+	String str;
+	String str3;
+	String str6;
 	static{
-		String str7=str;
+	
 	}
 	public Stock() {
 	}
