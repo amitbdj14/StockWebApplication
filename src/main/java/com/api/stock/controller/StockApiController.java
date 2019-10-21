@@ -1,7 +1,9 @@
 package com.api.stock.controller;
 
 import java.util.List;
-
+import java.io.FileNotFoundException;
+import java.lang.*;
+import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,7 +17,13 @@ import com.api.stock.service.StockApiService;
 
 @Controller
 public class StockApiController {
-   
+   String str1;
+	String str2;
+	String str4;
+	String str4;
+	String str5;
+	String str5;
+	
    @Autowired
 	private StockApiService stockService;
    
