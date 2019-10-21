@@ -29,6 +29,12 @@ String str1;
 	static{
 	}
 	
+	private StockApiService(){
+	}
+	
+	synchronized public void getTest{
+	}
+	
 	public Stock getStock(int id){
 		return listStocks.stream().filter(t->(t.getId()==id)).findFirst().get();
 	}
