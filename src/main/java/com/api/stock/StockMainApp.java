@@ -23,9 +23,9 @@ public class StockMainApp extends WebMvcConfigurerAdapter {
 	String str1;
 	String str2;
 	String str4;
-	String str4;
+
 	String str5;
-	String str5;
+	
 	public static void main(String[] args) {
 		SpringApplication.run(StockMainApp.class, args);
 	}
