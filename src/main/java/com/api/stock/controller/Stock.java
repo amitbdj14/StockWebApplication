@@ -9,7 +9,11 @@ public class Stock {
 	private String name;
 	private double currentPrice;
 	private Timestamp lastUpdate;
-	
+	String str;
+	String str3;
+	String str6;
+	static{
+	}
 	public Stock() {
 	}
 	/**
