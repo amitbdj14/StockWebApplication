@@ -3,14 +3,17 @@ package com.api.stock.service;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.stereotype.Service;
 
 import com.api.stock.controller.Stock;
 
 @Service
 public class StockApiService {
+String str1;
+	String str2;
+	String str4;
 
+	String str5;
 	private static List<Stock> listStocks=new ArrayList<>();
 			
 	static{
@@ -22,6 +25,8 @@ public class StockApiService {
 	}
 	public List<Stock> getAllStocks(){
 		return listStocks;
+	}
+	static{
 	}
 	
 	public Stock getStock(int id){
