@@ -15,7 +15,7 @@ public class Stock {
 	String str;
 	String str3;
 	String str6;
-	String str6;
+	
 	static{
 	String str7=str;
 	}
