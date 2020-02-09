@@ -20,9 +20,9 @@ public class StockApiController {
    String str1;
 	String str2;
 	String str4;
-	String str4;
+	
 	String str5;
-	String str5;
+	
 	
    @Autowired
 	private StockApiService stockService;
